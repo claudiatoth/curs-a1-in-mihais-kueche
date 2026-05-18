@@ -57,19 +57,6 @@ const verbsData = [
         praet: [['ich','würzte','condimentam'],['du','würztest','condimentai'],['er/sie/es','würzte','condimenta'],['wir','würzten','condimentam'],['ihr','würztet','condimentați'],['sie/Sie','würzten','condimentau']],
         perf: [['ich','habe gewürzt','am condimentat'],['du','hast gewürzt','ai condimentat'],['er/sie/es','hat gewürzt','a condimentat'],['wir','haben gewürzt','am condimentat'],['ihr','habt gewürzt','ați condimentat'],['sie/Sie','haben gewürzt','au condimentat']],
         note: 'Radical în -z → du würzt (NU würzst), er würzt.'
-    },
-    {
-        inf: 'sein', ro: 'a fi', typ: 'auxiliar / neregulat', aux: 'sein', part: 'gewesen',
-        praes: [['ich','bin','sunt'],['du','bist','ești'],['er/sie/es','ist','este'],['wir','sind','suntem'],['ihr','seid','sunteți'],['sie/Sie','sind','sunt']],
-        praet: [['ich','war','eram'],['du','warst','erai'],['er/sie/es','war','era'],['wir','waren','eram'],['ihr','wart','erați'],['sie/Sie','waren','erau']],
-        perf: [['ich','bin gewesen','am fost'],['du','bist gewesen','ai fost'],['er/sie/es','ist gewesen','a fost'],['wir','sind gewesen','am fost'],['ihr','seid gewesen','ați fost'],['sie/Sie','sind gewesen','au fost']],
-        note: 'ATENȚIE: Perfekt cu SEIN (ist gewesen), NU haben! Capcană clasică pentru români.'
-    },
-    {
-        inf: 'haben', ro: 'a avea', typ: 'auxiliar / neregulat', aux: 'haben', part: 'gehabt',
-        praes: [['ich','habe','am'],['du','hast','ai'],['er/sie/es','hat','are'],['wir','haben','avem'],['ihr','habt','aveți'],['sie/Sie','haben','au']],
-        praet: [['ich','hatte','aveam'],['du','hattest','aveai'],['er/sie/es','hatte','avea'],['wir','hatten','aveam'],['ihr','hattet','aveați'],['sie/Sie','hatten','aveau']],
-        perf: [['ich','habe gehabt','am avut'],['du','hast gehabt','ai avut'],['er/sie/es','hat gehabt','a avut'],['wir','haben gehabt','am avut'],['ihr','habt gehabt','ați avut'],['sie/Sie','haben gehabt','au avut']]
     }
 ];
 
@@ -81,12 +68,20 @@ function tenseTable(title, rows) {
     return '<div class="theory-box" style="margin:8px 0;"><h4>' + title + '</h4><table class="grammar-table"><tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>' + r + '</table></div>';
 }
 
+function perfektCompact(v) {
+    return '<div class="theory-box" style="margin:8px 0; background:#d1fae5;">' +
+        '<h4>Perfekt (pe scurt)</h4>' +
+        '<p style="margin:0;">Auxiliar <strong>' + v.aux + '</strong> + participiul <strong>' + v.part + '</strong><br>' +
+        '<em>Exemplu:</em> er <strong>' + v.perf[2][1] + '</strong> · <em style="color:#6b7280;">' + v.perf[2][2] + '</em><br>' +
+        '<small style="color:#6b7280;">Conjugi auxiliarul ca de obicei (ich habe, du hast, er hat...) + <strong>' + v.part + '</strong>.</small></p></div>';
+}
+
 function buildVerbs() {
     const container = document.getElementById('verbs-container');
     if (!container) return;
     let html = '' +
         '<div class="exercise-instruction">' +
-        '<strong>🔁 ' + verbsData.length + ' verbe din lecție, conjugate complet</strong> — Präsens, Präteritum, Perfekt.<br>' +
+        '<strong>🔁 ' + verbsData.length + ' verbe din lecție</strong> — Präsens + Präteritum (complet) · Perfekt (pe scurt: auxiliar + participiu).<br>' +
         'Click pe un verb ca să-i vezi conjugarea. Instrument de <strong>referință</strong> (caută orice formă).' +
         '</div>';
 
@@ -107,8 +102,8 @@ function buildVerbs() {
             '</div>' +
             '<div class="sub-section-content" id="verb-' + i + '">' +
             tenseTable('Präsens (prezent)', v.praes) +
-            tenseTable('Präteritum (trecut narativ)', v.praet) +
-            tenseTable('Perfekt (' + v.aux + ' + ' + v.part + ')', v.perf) +
+            tenseTable('Präteritum (imperfect)', v.praet) +
+            perfektCompact(v) +
             (v.note ? '<div class="theory-box" style="background:#fef3c7;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
             '</div></div>';
     });
