@@ -91,18 +91,18 @@ const theoryHTML = `
                 <p>În germană spui ÎNTÂI ambalajul, apoi produsul (fără „de"): <em>eine Flasche Wasser</em> = o sticlă (de) apă.</p>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th><th>Exemplu</th></tr>
-                    <tr><td><strong>eine Packung</strong></td><td>un pachet</td><td><em style="color:#6b7280;">eine Packung Müsli / Zucker</em></td></tr>
-                    <tr><td><strong>ein Sack</strong></td><td>un sac</td><td><em style="color:#6b7280;">ein Sack Kartoffeln</em></td></tr>
-                    <tr><td><strong>eine Flasche</strong></td><td>o sticlă</td><td><em style="color:#6b7280;">eine Flasche Wasser / Limonade</em></td></tr>
-                    <tr><td><strong>ein Netz</strong></td><td>o plasă</td><td><em style="color:#6b7280;">ein Netz Zitronen / Zwiebeln</em></td></tr>
-                    <tr><td><strong>eine Dose</strong></td><td>o cutie / conservă</td><td><em style="color:#6b7280;">eine Dose Tomaten / Limonade</em></td></tr>
-                    <tr><td><strong>eine Tüte</strong></td><td>o pungă</td><td><em style="color:#6b7280;">eine Tüte Chips / Gummibärchen</em></td></tr>
-                    <tr><td><strong>eine Kiste</strong></td><td>o ladă</td><td><em style="color:#6b7280;">eine Kiste Bier / Orangen</em></td></tr>
-                    <tr><td><strong>eine Tafel</strong></td><td>o tabletă</td><td><em style="color:#6b7280;">eine Tafel Schokolade</em></td></tr>
-                    <tr><td><strong>ein Glas</strong></td><td>un borcan</td><td><em style="color:#6b7280;">ein Glas Marmelade / Gurken</em></td></tr>
-                    <tr><td><strong>eine Tube</strong></td><td>un tub</td><td><em style="color:#6b7280;">eine Tube Senf / Zahnpasta</em></td></tr>
-                    <tr><td><strong>ein Becher</strong></td><td>un păhărel</td><td><em style="color:#6b7280;">ein Becher Joghurt / Pudding</em></td></tr>
-                    <tr><td><strong>eine Schale</strong></td><td>o caserolă / un coș</td><td><em style="color:#6b7280;">eine Schale Erdbeeren / Himbeeren</em></td></tr>
+                    <tr><td><strong>eine Packung</strong></td><td>un pachet</td><td><em style="color:#5A5147;">eine Packung Müsli / Zucker</em></td></tr>
+                    <tr><td><strong>ein Sack</strong></td><td>un sac</td><td><em style="color:#5A5147;">ein Sack Kartoffeln</em></td></tr>
+                    <tr><td><strong>eine Flasche</strong></td><td>o sticlă</td><td><em style="color:#5A5147;">eine Flasche Wasser / Limonade</em></td></tr>
+                    <tr><td><strong>ein Netz</strong></td><td>o plasă</td><td><em style="color:#5A5147;">ein Netz Zitronen / Zwiebeln</em></td></tr>
+                    <tr><td><strong>eine Dose</strong></td><td>o cutie / conservă</td><td><em style="color:#5A5147;">eine Dose Tomaten / Limonade</em></td></tr>
+                    <tr><td><strong>eine Tüte</strong></td><td>o pungă</td><td><em style="color:#5A5147;">eine Tüte Chips / Gummibärchen</em></td></tr>
+                    <tr><td><strong>eine Kiste</strong></td><td>o ladă</td><td><em style="color:#5A5147;">eine Kiste Bier / Orangen</em></td></tr>
+                    <tr><td><strong>eine Tafel</strong></td><td>o tabletă</td><td><em style="color:#5A5147;">eine Tafel Schokolade</em></td></tr>
+                    <tr><td><strong>ein Glas</strong></td><td>un borcan</td><td><em style="color:#5A5147;">ein Glas Marmelade / Gurken</em></td></tr>
+                    <tr><td><strong>eine Tube</strong></td><td>un tub</td><td><em style="color:#5A5147;">eine Tube Senf / Zahnpasta</em></td></tr>
+                    <tr><td><strong>ein Becher</strong></td><td>un păhărel</td><td><em style="color:#5A5147;">ein Becher Joghurt / Pudding</em></td></tr>
+                    <tr><td><strong>eine Schale</strong></td><td>o caserolă / un coș</td><td><em style="color:#5A5147;">eine Schale Erdbeeren / Himbeeren</em></td></tr>
                 </table>
             </div>
             <div class="andreea-note">
@@ -133,16 +133,16 @@ const theoryHTML = `
                 <h4>🍽️ Felurile principale din meniul lui Mihai</h4>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>das Schnitzel · die Schnitzel</strong></td><td><em style="color:#6b7280;">șnițelul · șnițelele (pl identic)</em></td></tr>
-                    <tr><td><strong>die Bratwurst · die Bratwürste</strong></td><td><em style="color:#6b7280;">cârnatul · cârnații prăjiți</em></td></tr>
-                    <tr><td><strong>das Gulasch</strong> (substantiv nenumărabil)</td><td><em style="color:#6b7280;">gulașul (fără plural — fel de mâncare)</em></td></tr>
-                    <tr><td><strong>der Braten · die Braten</strong></td><td><em style="color:#6b7280;">friptura · fripturile (la cuptor; pl identic)</em></td></tr>
-                    <tr><td><strong>das Kartoffelpüree</strong> (substantiv nenumărabil)</td><td><em style="color:#6b7280;">piureul de cartofi (fără plural)</em></td></tr>
-                    <tr><td><strong>die Nudeln</strong> (substantiv plural tantum)</td><td><em style="color:#6b7280;">pastele / tăițeii (DE: doar plural)</em></td></tr>
-                    <tr><td><strong>der Reis</strong> (substantiv nenumărabil)</td><td><em style="color:#6b7280;">orezul (fără plural — substanță)</em></td></tr>
-                    <tr><td><strong>der Eintopf · die Eintöpfe</strong></td><td><em style="color:#6b7280;">tocana · tocanele (mâncare la o oală)</em></td></tr>
-                    <tr><td><strong>das Hähnchen · die Hähnchen</strong></td><td><em style="color:#6b7280;">puiul · puii fripți (pl identic)</em></td></tr>
-                    <tr><td><strong>die Pommes</strong> (substantiv plural tantum)</td><td><em style="color:#6b7280;">cartofii prăjiți (DE: doar plural)</em></td></tr>
+                    <tr><td><strong>das Schnitzel · die Schnitzel</strong></td><td><em style="color:#5A5147;">șnițelul · șnițelele (pl identic)</em></td></tr>
+                    <tr><td><strong>die Bratwurst · die Bratwürste</strong></td><td><em style="color:#5A5147;">cârnatul · cârnații prăjiți</em></td></tr>
+                    <tr><td><strong>das Gulasch</strong> (substantiv nenumărabil)</td><td><em style="color:#5A5147;">gulașul (fără plural — fel de mâncare)</em></td></tr>
+                    <tr><td><strong>der Braten · die Braten</strong></td><td><em style="color:#5A5147;">friptura · fripturile (la cuptor; pl identic)</em></td></tr>
+                    <tr><td><strong>das Kartoffelpüree</strong> (substantiv nenumărabil)</td><td><em style="color:#5A5147;">piureul de cartofi (fără plural)</em></td></tr>
+                    <tr><td><strong>die Nudeln</strong> (substantiv plural tantum)</td><td><em style="color:#5A5147;">pastele / tăițeii (DE: doar plural)</em></td></tr>
+                    <tr><td><strong>der Reis</strong> (substantiv nenumărabil)</td><td><em style="color:#5A5147;">orezul (fără plural — substanță)</em></td></tr>
+                    <tr><td><strong>der Eintopf · die Eintöpfe</strong></td><td><em style="color:#5A5147;">tocana · tocanele (mâncare la o oală)</em></td></tr>
+                    <tr><td><strong>das Hähnchen · die Hähnchen</strong></td><td><em style="color:#5A5147;">puiul · puii fripți (pl identic)</em></td></tr>
+                    <tr><td><strong>die Pommes</strong> (substantiv plural tantum)</td><td><em style="color:#5A5147;">cartofii prăjiți (DE: doar plural)</em></td></tr>
                 </table>
             </div>
         </div>
@@ -167,12 +167,12 @@ const theoryHTML = `
                 <p>Se formează din ingredient + Suppe: Gemüse + Suppe = Gemüsesuppe.</p>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>die Gemüsesuppe · die Gemüsesuppen</strong></td><td><em style="color:#6b7280;">supa · supele de legume</em></td></tr>
-                    <tr><td><strong>die Tomatensuppe · die Tomatensuppen</strong></td><td><em style="color:#6b7280;">supa · supele de roșii</em></td></tr>
-                    <tr><td><strong>die Hühnersuppe · die Hühnersuppen</strong></td><td><em style="color:#6b7280;">supa · supele de pui</em></td></tr>
-                    <tr><td><strong>die Kartoffelsuppe · die Kartoffelsuppen</strong></td><td><em style="color:#6b7280;">supa · supele de cartofi</em></td></tr>
-                    <tr><td><strong>die Nudelsuppe · die Nudelsuppen</strong></td><td><em style="color:#6b7280;">supa · supele cu tăiței</em></td></tr>
-                    <tr><td><strong>die Linsensuppe · die Linsensuppen</strong></td><td><em style="color:#6b7280;">supa · supele de linte</em></td></tr>
+                    <tr><td><strong>die Gemüsesuppe · die Gemüsesuppen</strong></td><td><em style="color:#5A5147;">supa · supele de legume</em></td></tr>
+                    <tr><td><strong>die Tomatensuppe · die Tomatensuppen</strong></td><td><em style="color:#5A5147;">supa · supele de roșii</em></td></tr>
+                    <tr><td><strong>die Hühnersuppe · die Hühnersuppen</strong></td><td><em style="color:#5A5147;">supa · supele de pui</em></td></tr>
+                    <tr><td><strong>die Kartoffelsuppe · die Kartoffelsuppen</strong></td><td><em style="color:#5A5147;">supa · supele de cartofi</em></td></tr>
+                    <tr><td><strong>die Nudelsuppe · die Nudelsuppen</strong></td><td><em style="color:#5A5147;">supa · supele cu tăiței</em></td></tr>
+                    <tr><td><strong>die Linsensuppe · die Linsensuppen</strong></td><td><em style="color:#5A5147;">supa · supele de linte</em></td></tr>
                 </table>
             </div>
         </div>
@@ -196,14 +196,14 @@ const theoryHTML = `
                 <h4>🍰 Deserturi (der Nachtisch = desertul)</h4>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>das Eis</strong> (substantiv nenumărabil în uz comun)</td><td><em style="color:#6b7280;">înghețata (pluralul „die Eise" rar — pentru tipuri specifice)</em></td></tr>
-                    <tr><td><strong>der Kuchen · die Kuchen</strong></td><td><em style="color:#6b7280;">prăjitura · prăjiturile / tortul · torturile (pl identic)</em></td></tr>
-                    <tr><td><strong>der Apfelstrudel · die Apfelstrudel</strong></td><td><em style="color:#6b7280;">ștrudelul · ștrudelele cu mere (pl identic)</em></td></tr>
-                    <tr><td><strong>der Pudding · die Puddings</strong></td><td><em style="color:#6b7280;">budinca · budincile / crema · cremele</em></td></tr>
-                    <tr><td><strong>der Obstsalat · die Obstsalate</strong></td><td><em style="color:#6b7280;">salata · salatele de fructe</em></td></tr>
-                    <tr><td><strong>der Pfannkuchen · die Pfannkuchen</strong></td><td><em style="color:#6b7280;">clătita · clătitele (pl identic)</em></td></tr>
-                    <tr><td><strong>der Keks · die Kekse</strong></td><td><em style="color:#6b7280;">biscuitele · biscuiții</em></td></tr>
-                    <tr><td><strong>die Schokolade · die Schokoladen</strong></td><td><em style="color:#6b7280;">ciocolata · ciocolatele (Pl pentru tipuri/sortimente)</em></td></tr>
+                    <tr><td><strong>das Eis</strong> (substantiv nenumărabil în uz comun)</td><td><em style="color:#5A5147;">înghețata (pluralul „die Eise" rar — pentru tipuri specifice)</em></td></tr>
+                    <tr><td><strong>der Kuchen · die Kuchen</strong></td><td><em style="color:#5A5147;">prăjitura · prăjiturile / tortul · torturile (pl identic)</em></td></tr>
+                    <tr><td><strong>der Apfelstrudel · die Apfelstrudel</strong></td><td><em style="color:#5A5147;">ștrudelul · ștrudelele cu mere (pl identic)</em></td></tr>
+                    <tr><td><strong>der Pudding · die Puddings</strong></td><td><em style="color:#5A5147;">budinca · budincile / crema · cremele</em></td></tr>
+                    <tr><td><strong>der Obstsalat · die Obstsalate</strong></td><td><em style="color:#5A5147;">salata · salatele de fructe</em></td></tr>
+                    <tr><td><strong>der Pfannkuchen · die Pfannkuchen</strong></td><td><em style="color:#5A5147;">clătita · clătitele (pl identic)</em></td></tr>
+                    <tr><td><strong>der Keks · die Kekse</strong></td><td><em style="color:#5A5147;">biscuitele · biscuiții</em></td></tr>
+                    <tr><td><strong>die Schokolade · die Schokoladen</strong></td><td><em style="color:#5A5147;">ciocolata · ciocolatele (Pl pentru tipuri/sortimente)</em></td></tr>
                 </table>
             </div>
         </div>
@@ -227,18 +227,18 @@ const theoryHTML = `
                 <h4>🍳 Ustensile și vase (cu articol — învață-le așa!)</h4>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>der Topf · die Töpfe</strong></td><td><em style="color:#6b7280;">oala · oalele</em></td></tr>
-                    <tr><td><strong>die Pfanne · die Pfannen</strong></td><td><em style="color:#6b7280;">tigaia · tigăile</em></td></tr>
-                    <tr><td><strong>das Messer · die Messer</strong></td><td><em style="color:#6b7280;">cuțitul · cuțitele (pl identic)</em></td></tr>
-                    <tr><td><strong>die Gabel · die Gabeln</strong></td><td><em style="color:#6b7280;">furculița · furculițele</em></td></tr>
-                    <tr><td><strong>der Löffel · die Löffel</strong></td><td><em style="color:#6b7280;">lingura · lingurile (pl identic)</em></td></tr>
-                    <tr><td><strong>der Teller · die Teller</strong></td><td><em style="color:#6b7280;">farfuria · farfuriile (pl identic)</em></td></tr>
-                    <tr><td><strong>die Tasse · die Tassen</strong></td><td><em style="color:#6b7280;">ceașca · cestile</em></td></tr>
-                    <tr><td><strong>das Glas · die Gläser</strong></td><td><em style="color:#6b7280;">paharul · paharele</em></td></tr>
-                    <tr><td><strong>der Herd · die Herde</strong></td><td><em style="color:#6b7280;">aragazul · aragazurile</em></td></tr>
-                    <tr><td><strong>der Backofen · die Backöfen</strong></td><td><em style="color:#6b7280;">cuptorul · cuptoarele</em></td></tr>
-                    <tr><td><strong>der Kühlschrank · die Kühlschränke</strong></td><td><em style="color:#6b7280;">frigiderul · frigiderele</em></td></tr>
-                    <tr><td><strong>das Schneidebrett · die Schneidebretter</strong></td><td><em style="color:#6b7280;">tocătorul · tocătoarele</em></td></tr>
+                    <tr><td><strong>der Topf · die Töpfe</strong></td><td><em style="color:#5A5147;">oala · oalele</em></td></tr>
+                    <tr><td><strong>die Pfanne · die Pfannen</strong></td><td><em style="color:#5A5147;">tigaia · tigăile</em></td></tr>
+                    <tr><td><strong>das Messer · die Messer</strong></td><td><em style="color:#5A5147;">cuțitul · cuțitele (pl identic)</em></td></tr>
+                    <tr><td><strong>die Gabel · die Gabeln</strong></td><td><em style="color:#5A5147;">furculița · furculițele</em></td></tr>
+                    <tr><td><strong>der Löffel · die Löffel</strong></td><td><em style="color:#5A5147;">lingura · lingurile (pl identic)</em></td></tr>
+                    <tr><td><strong>der Teller · die Teller</strong></td><td><em style="color:#5A5147;">farfuria · farfuriile (pl identic)</em></td></tr>
+                    <tr><td><strong>die Tasse · die Tassen</strong></td><td><em style="color:#5A5147;">ceașca · cestile</em></td></tr>
+                    <tr><td><strong>das Glas · die Gläser</strong></td><td><em style="color:#5A5147;">paharul · paharele</em></td></tr>
+                    <tr><td><strong>der Herd · die Herde</strong></td><td><em style="color:#5A5147;">aragazul · aragazurile</em></td></tr>
+                    <tr><td><strong>der Backofen · die Backöfen</strong></td><td><em style="color:#5A5147;">cuptorul · cuptoarele</em></td></tr>
+                    <tr><td><strong>der Kühlschrank · die Kühlschränke</strong></td><td><em style="color:#5A5147;">frigiderul · frigiderele</em></td></tr>
+                    <tr><td><strong>das Schneidebrett · die Schneidebretter</strong></td><td><em style="color:#5A5147;">tocătorul · tocătoarele</em></td></tr>
                 </table>
             </div>
         </div>
@@ -262,14 +262,14 @@ const theoryHTML = `
                 <h4>🔪 Verbele de bucătărie (verbe slabe — recap Lecția 3)</h4>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th><th>Exemplu (Mihai)</th></tr>
-                    <tr><td><strong>kochen</strong></td><td>a fierbe / a găti</td><td><em style="color:#6b7280;">Mihai kocht eine Suppe.</em></td></tr>
-                    <tr><td><strong>braten</strong></td><td>a prăji</td><td><em style="color:#6b7280;">Er brät ein Schnitzel.</em></td></tr>
-                    <tr><td><strong>backen</strong></td><td>a coace</td><td><em style="color:#6b7280;">Er backt einen Kuchen.</em></td></tr>
-                    <tr><td><strong>schneiden</strong></td><td>a tăia</td><td><em style="color:#6b7280;">Er schneidet das Gemüse.</em></td></tr>
-                    <tr><td><strong>mischen</strong></td><td>a amesteca (a combina)</td><td><em style="color:#6b7280;">Er mischt den Salat.</em></td></tr>
-                    <tr><td><strong>rühren</strong></td><td>a amesteca (cu lingura)</td><td><em style="color:#6b7280;">Er rührt die Soße.</em></td></tr>
-                    <tr><td><strong>schälen</strong></td><td>a curăța de coajă</td><td><em style="color:#6b7280;">Er schält die Kartoffeln.</em></td></tr>
-                    <tr><td><strong>würzen</strong></td><td>a condimenta</td><td><em style="color:#6b7280;">Er würzt das Fleisch.</em></td></tr>
+                    <tr><td><strong>kochen</strong></td><td>a fierbe / a găti</td><td><em style="color:#5A5147;">Mihai kocht eine Suppe.</em></td></tr>
+                    <tr><td><strong>braten</strong></td><td>a prăji</td><td><em style="color:#5A5147;">Er brät ein Schnitzel.</em></td></tr>
+                    <tr><td><strong>backen</strong></td><td>a coace</td><td><em style="color:#5A5147;">Er backt einen Kuchen.</em></td></tr>
+                    <tr><td><strong>schneiden</strong></td><td>a tăia</td><td><em style="color:#5A5147;">Er schneidet das Gemüse.</em></td></tr>
+                    <tr><td><strong>mischen</strong></td><td>a amesteca (a combina)</td><td><em style="color:#5A5147;">Er mischt den Salat.</em></td></tr>
+                    <tr><td><strong>rühren</strong></td><td>a amesteca (cu lingura)</td><td><em style="color:#5A5147;">Er rührt die Soße.</em></td></tr>
+                    <tr><td><strong>schälen</strong></td><td>a curăța de coajă</td><td><em style="color:#5A5147;">Er schält die Kartoffeln.</em></td></tr>
+                    <tr><td><strong>würzen</strong></td><td>a condimenta</td><td><em style="color:#5A5147;">Er würzt das Fleisch.</em></td></tr>
                 </table>
             </div>
 
@@ -297,7 +297,7 @@ const theoryHTML = `
         <a href="https://forms.gle/yhQkgJDSUVpQGkpk7" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #10B981; color: white; padding: 13px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1rem; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);">
             Trimite textul Claudiei →
         </a>
-        <p style="color: #6b7280; font-size: 0.78rem; margin-top: 12px; font-style: italic;">
+        <p style="color: #5A5147; font-size: 0.78rem; margin-top: 12px; font-style: italic;">
             ʚଓ Răspuns personal pe email · Nu uita să-ți treci adresa de email în formular
         </p>
     </div>
