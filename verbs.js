@@ -89,7 +89,7 @@ function buildVerbs() {
         '<img src="images/andreea.png" alt="Andreea" class="andreea-note-avatar">' +
         '<div class="andreea-note-content">' +
         '<div class="speaker">Andreea îți spune:</div>' +
-        '<div class="text">„Acesta e un INSTRUMENT DE CĂUTARE. La A1 înveți complet doar Präsens — Präteritum și Perfekt vin mai târziu (Lecțiile 11+ / 17). Aici sunt doar ca să poți verifica ORICE formă când ai nevoie (ex: cum se conjugă braten). Verbele TARI sunt verificate pe PONS. 🦋"</div>' +
+        '<div class="text">„Acesta e un INSTRUMENT DE CĂUTARE. La A1 înveți complet doar Präsens — Präteritum și Perfekt vin mai târziu în curs. Aici sunt doar ca să poți verifica ORICE formă când ai nevoie (ex: cum se conjugă braten). Verbele TARI sunt verificate pe PONS. 🦋"</div>' +
         '</div></div>';
 
     verbsData.forEach(function (v, i) {

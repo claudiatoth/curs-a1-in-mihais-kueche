@@ -259,7 +259,7 @@ const theoryHTML = `
                 <span class="lesson-audio-label">🔊 Ascultă subsecțiunea</span>
             </div>
             <div class="theory-box">
-                <h4>🔪 Verbele de bucătărie (verbe slabe — recap Lecția 3)</h4>
+                <h4>🔪 Verbele de bucătărie (verbe slabe)</h4>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th><th>Exemplu (Mihai)</th></tr>
                     <tr><td><strong>kochen</strong></td><td>a fierbe / a găti</td><td><em style="color:#5A5147;">Mihai kocht eine Suppe.</em></td></tr>
